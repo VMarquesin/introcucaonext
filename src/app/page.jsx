@@ -8,6 +8,24 @@ export default function Home() {
          <h2>Exemplo h2</h2>
          <h3>Exemplo h3</h3>
          <p>Texto parágrafo</p>
+
+         <div className={styles.containerImagem}>
+            <Image
+               src="/download.jfif"
+               width={500}
+               height={500}
+               alt="Imagem"
+               className={styles.imagemHomePage}
+            />
+
+            <Image
+               src="/download.jfif"
+               width={50}
+               height={50}
+               alt="Imagem"
+               className={styles.imagemHomePage}
+            />
+         </div>
       </div>
    );
 }
